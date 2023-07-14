@@ -1,5 +1,7 @@
 # PHP-Safaricom-Mpesa-Daraja-API
 
+Information collected from [Daraja Website](https://developer.safaricom.co.ke/)
+
 ## Introduction
 ### 1. What Is MPESA
 MPesa is a mobile money service owned by Safaricom PLC that allows users to send and receive money, pay for goods and services, and make utility payments. It is Africa's most popular mobile money service, with over 40 million active users. MPesa has been credited with helping to reduce poverty and boost economic growth in Kenya and other African countries.
@@ -49,7 +51,7 @@ Overall, Daraja API is a powerful tool that can be used to develop a variety of 
 ## Business Recieving C2B Payments Using API
 All of these APIs require authorization, so you will need to create an account with Mpesa and obtain an API key. Once you have an API key, you can start using the APIs to send push notifications, generate QR codes, and register transactions.
 
-All the codes in php are shared here: [Open this File](C2B_APIs/mpesaC2BFunctions.php)  
+All the codes under C2B in php are shared here: [Open this File](C2B_APIs/mpesaC2BFunctions.php)  
 
 ### Authorization API
 This API authenticates other APIs. To generate an access token, select your app in the simulator and your keys will auto-populate. Your token expires in 3600 seconds. You can also get the Postman collection and paste your Consumer Key and Consumer Secret from Daraja.
